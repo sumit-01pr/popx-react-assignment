@@ -24,7 +24,7 @@ const InputField = ({
         placeholder={placeholder}
         className="
           w-full
-          h-12
+          h-10
           px-4
           border
           border-gray-300
