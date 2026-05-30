@@ -4,16 +4,16 @@ const InputField = ({
   type = "text",
 }) => {
   return (
-    <div className="relative mb-4">
+    <div className="relative mb-6">
       <label
         className="
         absolute
-        -top-3
+        -top-2
         left-3
         bg-[#F7F8F9]
         px-1
+        text-xs
         text-[#6C25FF]
-        text-sm
       "
       >
         {label}
@@ -24,13 +24,13 @@ const InputField = ({
         placeholder={placeholder}
         className="
           w-full
+          h-12
+          px-4
           border
           border-gray-300
           rounded-md
-          px-4
-          py-3
-          outline-none
           bg-transparent
+          outline-none
         "
       />
     </div>
